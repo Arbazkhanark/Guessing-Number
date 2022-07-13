@@ -96,3 +96,32 @@ if(!guess){
 
 }
 });
+
+
+
+
+
+
+document.querySelector('.again').addEventListener('click' , function(){
+    let system_number=Math.trunc (Math.random()*20)+1; 
+     let scores=20;
+
+     document.querySelector('.check').addEventListener('click', function(){
+        const guess=Number(document.querySelector('.guess').value);
+    
+    console.log(document.querySelector('.message').textContent);
+    console.log(document.querySelector('.message').textContent);
+
+document.querySelector('.number').textContent='?';
+document.querySelector('.score').textContent=20;
+
+ 
+document.querySelector('.guess').value='';
+console.log(document.querySelector('.guess').value);
+
+
+
+//It will show some css affect on the page.
+document.querySelector('body').style.backgroundColor='#06283D';
+document.querySelector('.number').style.width='4rem';
+});
