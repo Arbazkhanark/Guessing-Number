@@ -32,7 +32,12 @@ body{
     
 }
 .number{
+    background: rgb(255, 254, 254);
+    width: 4rem;
+    padding: 10px;
+    color:black;
     text-align: center;
+    margin-left: 500px;
 }
 
 .message,.highscore_field,.score_field {
