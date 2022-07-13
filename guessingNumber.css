@@ -35,7 +35,7 @@ body{
     text-align: center;
 }
 
-.message,.highscore,.score {
+.message,.highscore_field,.score_field {
     padding: 15px  0 20px 0;
 }
 
